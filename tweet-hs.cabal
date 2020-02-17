@@ -50,12 +50,12 @@ library
         Web.Tweet.Sign
         Web.Tweet.API
         Web.Tweet.Utils
-    hs-source-dirs: src
-    other-modules:
         Web.Tweet.Types
         Web.Tweet.Utils.Colors
         Web.Tweet.API.Internal
         Web.Tweet.Utils.API
+    hs-source-dirs: src
+    other-modules:
     default-language: Haskell2010
     ghc-options: -Wall -Wincomplete-uni-patterns
                  -Wincomplete-record-updates
